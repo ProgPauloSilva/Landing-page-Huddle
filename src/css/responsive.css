@@ -1,0 +1,52 @@
+@media(min-width:1024px){
+    body{
+       background: hsl(257, 40%, 49%) url(../images/bg-desktop.svg)no-repeat;
+       /* background-size: contain; */
+    }
+    .container{
+        width: 90%;
+    }
+    .container header .logo{
+        width: 200px;
+        min-height: 100px;
+    }
+    .container .main-content{
+        text-align: start;
+        flex-direction: row;
+        gap: 50px;
+    }
+    .container .main-content .content-illustration{
+        width: 55%;
+    }
+    .container .main-content .content-info{
+        width: 40%;
+    }
+    .container .main-content .content-info h1{
+        font-size: 2.5rem;
+        margin-top: 40px;
+    }
+    .container .main-content .content-info button{
+        font-size: 1.8rem;
+        padding: 15px 70px;
+    }
+    footer{
+        justify-content: flex-end;
+        margin: 0;
+    }
+    footer .social-link a i{
+        font-size: 2rem;
+        padding: 8px;
+    }
+}
+@media(min-width:1440px){
+    .container header .logo{
+        width: 200px;
+        min-height: 160px;
+    }
+    .container .main-content .content-info h1{
+    font-size: 4rem;
+    }
+    .container .main-content .content-info p{
+        font-size: 1.8rem;
+    }
+}

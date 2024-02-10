@@ -1,0 +1,68 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background: hsl(257, 40%, 49%) url(../images/bg-mobile.svg)no-repeat;
+    background-size: contain;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.container header .logo{
+    width: 125px;
+    min-height: 90px;
+}
+.container .main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+.container .main-content .content-info h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.container .main-content .content-info p{
+    margin-top: 20px;
+}
+.container .main-content .content-info button{
+    padding: 15px 80px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    color: hsl(257, 40%, 49%);
+    transition: 0.3s;
+}
+.container .main-content .content-info button:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: hsl(300, 69%, 71%);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+footer .social-link a i{
+    border: 2px solid #fff;
+    border-radius: 100%;
+    font-size: 1.4rem;
+    padding: 5px;
+    margin: 4px;
+    color: #fff;
+    transition: 0.5s;
+}
+footer .social-link a i:hover{
+    cursor: pointer;
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+    transform: translateY(-5px);
+}
